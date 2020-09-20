@@ -182,3 +182,38 @@
   margin: 10px; 
 }
 
+/*Menu Bar*/
+.menu-3sdvDG {
+  position: relative;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  cursor: default;
+  max-height: calc(100vh - 32px);
+  -webkit-box-shadow: var(--elevation-high);
+  box-shadow: var(--elevation-high);
+  background: var(--background-secondary-alt);
+  border: 1.5px solid #81ba90;
+  border-radius: 10px;
+}
+
+.labelContainer-1BLJti {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 32px;
+  background-color: #9ccba8;
+  padding: 6px 8px;
+  border-radius: 10px;
+}
