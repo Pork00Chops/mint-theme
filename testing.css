@@ -50,11 +50,11 @@
 .theme-dark,
 .theme-light,
 :root {
-  --background-primary: #d3e4db !important;
-  --background-secondary: #32ad61 !important;
-  --background-secondary-alt: #9db0a4 !important;
-  --background-tertiary: #0a0909 !important;
-  --background-accent: #b2e0c3 !important;
+  --background-primary: #dfeae2 !important;
+  --background-secondary: /*linear-gradient(90deg, rgba(92,232,110,1) 9%, rgba(35,73,74,1) 82%) gradient??*/ #397d54 !important;
+  --background-secondary-alt: #a8e0b7 !important;
+  --background-tertiary: #232925c2 !important;
+  --background-accent: #a8e0b7 !important;
   --background-floating: #9db0a4 !important;
   --background-modifier-hover: rgba(255, 255, 255, 0.01) !important;
   --background-modifier-active: rgba(255, 255, 255, 0.03) !important;
@@ -108,7 +108,7 @@
 
   /*Discord Sign*/
 .operations-36ENbA>a {   
-  color: #076a27;
+  color: #397d54;
   -webkit-transition: .05s;
   transition: .05s;
   text-decoration: none;
@@ -154,7 +154,7 @@
   color: var(--background-secondary);
 }
 
-/*Status Section*/
+/**/
 .section-2gLsgF {
   position: relative;
   padding: 12px;
@@ -173,9 +173,12 @@
   background-color: #94b8a1;
 }
 
-/**/
+/*Sidebar*/
 .content-3YMskv a {
-  padding: 2px 2px;
+  padding: 1px 1px;
   background-color: rgba(245, 245, 245, 0.226);
+  border: rgba(245, 245, 245, 0.226);
+  border-radius: 15px;
   margin: 10px; 
 }
+
