@@ -1,0 +1,181 @@
+/*
+.theme-dark,
+.theme-light,
+:root {
+  --background-primary: #080808!important;
+  --background-secondary: #ce2424 !important;
+  --background-secondary-alt: #f35454 !important;
+  --background-tertiary: #333333 !important;
+  --background-accent: #dd1818 !important;
+  --background-floating: #0a0909 !important;
+  --background-modifier-hover: rgba(255, 255, 255, 0.01) !important;
+  --background-modifier-active: rgba(255, 255, 255, 0.03) !important;
+  --background-modifier-selected: rgba(255, 255, 255, 0.04) !important;
+  --background-modifier-accent: hsla(0, 0%, 100%, 0.06) !important;
+  --channeltextarea-background: var(--background-accent) !important;
+  --deprecated-card-bg: rgba(0, 0, 0, 0.2) !important;
+  --deprecated-card-editable-bg: rgba(0, 0, 0, 0.1) !important;
+  --deprecated-text-input-bg: var(--deprecated-card-editable-bg) !important;
+  --deprecated-text-input-border: var(--background-floating) !important;
+  --deprecated-text-input-border-disabled: var(--background-tertiary) !important;
+  --activity-card-background: var(--background-primary) !important;
+  --channels-default: #9f9f9f !important;
+  --text-muted: #b6b6b6 !important;
+  --text-normal: #fbfbfb !important;
+  --interactive-normal: #c8c8c8 !important;
+  --interactive-hover: #dcddde !important;
+  --interactive-active: #fff !important;
+  --interactive-muted: #747474 !important;
+  --header-primary: white !important;
+  --header-secondary: #c9c9c9 !important;
+  --text-link: #00b0f4;
+  --scrollbar-thin-thumb: #202225;
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-thumb: #202225;
+    --scrollbar-auto-track: #2e3338;
+    --scrollbar-auto-scrollbar-color-thumb: #202225;
+    --scrollbar-auto-scrollbar-color-track: #2f3136;
+  --toast-background: var(--background-primary) !important;
+  --toast-header: var(--background-tertiary) !important;
+  --toast-contents: var(--background-secondary) !important;
+  --toast-box-shadow: rgba(0, 0, 0, 0.2) !important;
+  --toast-border: var(--background-tertiary) !important;
+}
+
+:root {
+    --spotify-color: #1ed860;
+}
+*/
+
+.theme-dark,
+.theme-light,
+:root {
+  --background-primary: #d3e4db !important;
+  --background-secondary: #32ad61 !important;
+  --background-secondary-alt: #9db0a4 !important;
+  --background-tertiary: #0a0909 !important;
+  --background-accent: #b2e0c3 !important;
+  --background-floating: #9db0a4 !important;
+  --background-modifier-hover: rgba(255, 255, 255, 0.01) !important;
+  --background-modifier-active: rgba(255, 255, 255, 0.03) !important;
+  --background-modifier-selected: rgba(255, 255, 255, 0.04) !important;
+  --background-modifier-accent: hsla(0, 0%, 100%, 0.06) !important;
+  --channeltextarea-background: var(--background-accent) !important;
+  --deprecated-card-bg: rgba(0, 0, 0, 0.2) !important;
+  --deprecated-card-editable-bg: rgba(0, 0, 0, 0.1) !important;
+  --deprecated-text-input-bg: var(--deprecated-card-editable-bg) !important;
+  --deprecated-text-input-border: var(--background-floating) !important;
+  --deprecated-text-input-border-disabled: var(--background-tertiary) !important;
+  --activity-card-background: var(--background-primary) !important;
+  --channels-default: #0a0909 !important;
+  --text-muted: #b6b6b6 !important;
+  --text-normal: #1b1818 !important;
+  --interactive-normal: #0a0909 !important;
+  --interactive-hover: #dbd8d7 !important;
+  --interactive-active: #0a0909 !important;
+  --interactive-muted: #0a0909 !important;
+  --header-primary: #0a0909 !important;
+  --header-secondary: #0a0909 !important;
+  --text-link: #16586f;
+  --scrollbar-thin-thumb: #202225;
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-thumb: #202225;
+    --scrollbar-auto-track: #2e3338;
+    --scrollbar-auto-scrollbar-color-thumb: #202225;
+    --scrollbar-auto-scrollbar-color-track: #2f3136;
+  --toast-background: var(--background-primary) !important;
+  --toast-header: var(--background-tertiary) !important;
+  --toast-contents: var(--background-secondary) !important;
+  --toast-box-shadow: rgba(0, 0, 0, 0.2) !important;
+  --toast-border: var(--background-tertiary) !important;
+}
+
+:root {
+    --spotify-color: #1ed860;
+}
+
+
+
+  .attachButtonPlus-jWVFah {
+    fill: black;
+  }
+
+  
+  .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+    color: #fff;
+    background-color: #32ad61;
+}
+
+  /*Discord Sign*/
+.operations-36ENbA>a {   
+  color: #076a27;
+  -webkit-transition: .05s;
+  transition: .05s;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container-3baos1 {
+  height: 52px;
+  font-size: 14px;
+  font-weight: 500;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 8px;
+  margin-bottom: 1px;
+  border: 3px solid #32ad61;
+  border-radius: 40px;
+} 
+
+.wrapper-3D2qGf {
+  background-color: #dbd8d7;
+}
+
+.peopleColumn-29fq28 {
+  background-color: #dbd8d7;
+ /* border-bottom: 8px solid #94b8a1;   //need to figure out the border */
+} 
+
+/*Min Max Close*/
+.winButton-iRh8-Z {
+  color: #32ad61;
+}
+
+/*Discord Lettering*/
+.wordmarkWindows-1v0lYD {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 4px 9px 3px;
+  color: var(--background-secondary);
+}
+
+/*Status Section*/
+.section-2gLsgF {
+  position: relative;
+  padding: 12px;
+  border-radius: 4px;
+  background-color: #94b8a1;
+}
+
+/*Activity Section*/
+.activitySection-cEg8ae {
+  display: grid;
+  grid-template-columns: 32px minmax(20px,auto);
+  grid-gap: 12px;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+  background-color: #94b8a1;
+}
+
+/**/
+.content-3YMskv a {
+  padding: 2px 2px;
+  background-color: rgba(245, 245, 245, 0.226);
+  margin: 10px; 
+}
