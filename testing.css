@@ -234,6 +234,7 @@
   border-radius: 10px;
 }
 
+/*chat sidebar*/
 .labelContainer-1BLJti {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -315,3 +316,26 @@
   margin-left: .25rem;
   color: black;
 }
+
+/*emoji face non-gray-scaled version*/
+*{
+  -webkit-filter: none !important;
+  filter: none !important;
+}
+
+ /*Spotify Profile Modal*/
+ .headerPlaying-j0WQBV, .topSectionPlaying-1J5E4n {
+  z-index: 1;
+  background-image: url(https://cdn.naila.bot/Discord/playing-background.svg),linear-gradient(to top right,#60adff,#4453fc);
+}
+
+.headerSpotify-zpWxgT, .topSectionSpotify-1lI0-P {
+  z-index: 1;
+  background-image: url(https://cdn.naila.bot/Discord/playing-background.svg),linear-gradient(to top right,#1db954,#44fc9d);
+}
+
+/*Better game playing status*/
+.headerPlaying-j0WQBV, .topSectionPlaying-1J5E4n {
+  background: url(https://cdn.discordapp.com/attachments/429284670228660224/755769080472010872/game.svg), linear-gradient(to top right, rgb(90,162,242), rgb(69,86,252));
+}
+
