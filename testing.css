@@ -254,3 +254,14 @@
   color: var(--text-normal);
   background-color: #397d54;
 }
+
+/*Scrollbar*/
+
+/*Embeds in chat*/
+.content-3YMskv a {
+  padding: 2px 1.5px;
+  background-color: rgba(245, 245, 245, 0.226);
+  border: rgba(245, 245, 245, 0.226);
+  border-radius: 15px;
+  margin: 10px;
+}
