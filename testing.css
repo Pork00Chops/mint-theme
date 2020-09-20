@@ -50,7 +50,7 @@
 .theme-dark,
 .theme-light,
 :root {
-  --background-primary: #dfeae2 !important;
+  --background-primary: #b2c5b2 !important;
   --background-secondary: /*linear-gradient(90deg, rgba(92,232,110,1) 9%, rgba(35,73,74,1) 82%) gradient??*/ #397d54 !important;
   --background-secondary-alt: #a8e0b7 !important;
   --background-tertiary: #232925c2 !important;
@@ -95,11 +95,18 @@
 }
 
 
-
+/*"+" Button*/
   .attachButtonPlus-jWVFah {
     fill: black;
   }
 
+  .icon-22AiRD {
+    display: block;
+    width: 24px;
+    height: 24px;
+    -webkit-app-region: no-drag;
+    color: var(--text-normal);
+}
   
   .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
     color: #fff;
@@ -265,3 +272,10 @@
   border-radius: 15px;
   margin: 10px;
 }
+
+/*Server Sidebar
+.scroller-2wx7Hm {
+  z-index: 1;
+  padding-right: 8px;
+}*/
+
