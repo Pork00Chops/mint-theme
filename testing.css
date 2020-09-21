@@ -4,8 +4,8 @@
   --background-primary: #b2c5b2 !important;
   --background-secondary: /*linear-gradient(90deg, rgba(92,232,110,1) 9%, rgba(35,73,74,1) 82%) gradient??*/ #397d54 !important;
   --background-secondary-alt: #a8e0b7 !important;
-  --background-tertiary: #232925c2 !important;
-  --background-accent: #a8e0b7 !important;
+  --background-tertiary: black !important;
+  --background-accent: #93c6a1 !important;
   --background-floating: #9db0a4 !important;
   --background-modifier-hover: rgba(255, 255, 255, 0.01) !important;
   --background-modifier-active: rgba(255, 255, 255, 0.03) !important;
@@ -60,31 +60,27 @@
     color: var(--text-normal);
 }
   
-/*Show text besides statuses in dms //does it work?//
+/* Show text besides statuses in dms*/
 [aria-label="Online"]::after {
-  content: 'ONLINE';
-  font-weight: bold;
+  content: 'Online';
   padding-left: 5px;
   color: #43B581
 }
 [aria-label="Do Not Disturb"]::after {
-  content: 'DO NOT DISTURB';
-  font-weight: bold;
+  content: 'Do Not Disturb';
   padding-left: 5px;
   color: #F04747
 }
 [aria-label="Idle"]::after {
-  content: 'IDLE';
-  font-weight: bold;
+  content: 'Idle';
   padding-left: 5px;
   color: #FFB740
 }
 [aria-label="Offline"]::after {
-  content: 'OFFLINE/INVISIBLE';
-  font-weight: bold;
+  content: 'Offline';
   padding-left: 5px;
   color: #747F8D
-}*/
+}
 
   .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
     color: #fff;
@@ -112,9 +108,10 @@
   align-items: center;
   padding: 0 8px;
   margin-bottom: 1px;
-  border: 3px solid #32ad61;
-  border-radius: 40px;
-} 
+  background: var(--background-accent);
+}
+
+
 
 .wrapper-3D2qGf {
   background-color: #dbd8d7;
@@ -305,18 +302,44 @@
   background-image: url(https://cdn.naila.bot/Discord/playing-background.svg),linear-gradient(to top right,#1db954,#44fc9d);
 }
 
-/*Spotify Controls
+/*Spotify Controls*/
 .powercord-spotify > .container-3baos1 > .flex-1xMQg5 > .button-14-BFJ {
   display:none;
 }
 .powercord-spotify.hover > .container-3baos1 > .flex-1xMQg5 > .button-14-BFJ {
   display:initial !important;
-}*/
+}
 
 /*Better game playing status*/
 .headerPlaying-j0WQBV, .topSectionPlaying-1J5E4n {
   background: url(https://cdn.discordapp.com/attachments/429284670228660224/755769080472010872/game.svg), linear-gradient(to top right, rgb(90,162,242), rgb(69,86,252));
 }
+
+/*Profile*/
+.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
+  background-color: var(--background-secondary);
+  color: hsla(0,0%,100%,.8);
+}
+
+.note-3HfJZ5 {
+  margin-left: -4px;
+  margin-right: -4px;
+  border-radius: 10px;
+  background-color: var(--background-secondary-alt);
+}
+
+/*Pop-ups*/
+.theme-dark .modal-yWgWj- {
+  background-color: var(--background-secondary-alt);
+  -webkit-box-shadow: 0 0 0 1px rgba(32,34,37,.6), 0 2px 10px 0 rgba(0,0,0,.2);
+  box-shadow: 0 0 0 1px rgba(32,34,37,.6), 0 2px 10px 0 rgba(0,0,0,.2);
+}
+.theme-dark .footer-2gL1pp {
+  background-color: var(--background-secondary);
+  -webkit-box-shadow: inset 0 1px 0 rgba(47,49,54,.6);
+  box-shadow: inset 0 1px 0 rgba(47,49,54,.6);
+}
+
 
 /* Rainbow server settings button/icon   //un-commented for now*/
 @keyframes rainbow-server-settings-button {
