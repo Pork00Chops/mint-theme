@@ -318,27 +318,27 @@
   background: url(https://cdn.discordapp.com/attachments/429284670228660224/755769080472010872/game.svg), linear-gradient(to top right, rgb(90,162,242), rgb(69,86,252));
 }
 
-/*Rainbow server settings button/icon   //un-commented for now
+/* Rainbow server settings button/icon   //un-commented for now*/
 @keyframes rainbow-server-settings-button {
   from {color: #6666ff}
   25%  {color: #0099ff}
   50%  {color: #00ff00}
   75%  {color: #ff3399}
   100% {color: #6666ff}
-}
+} 
 
 .button-1w5pas {
   animation: rainbow-server-settings-button 10s ease-in-out infinite;
 }*/
 
-/* Center profile tabs */
+/* Center profile tabs
 .tabBar-2MuP6- { 
   justify-content: center; 
 }
 
 .top-28JiJ-:last-child .item-PXvHYJ:last-child {
    margin-right: 0;
- }
+ } */
 
  /*Custom Home Button
 .listItem-2P_4kh:nth-child(1) .listItemWrapper-3X98Pc .wrapper-25eVIn svg foreignObject .wrapper-1BJsBx .childWrapper-anI2G9 .homeIcon-tEMBK1 {
@@ -357,8 +357,8 @@
   color: var(white);
 }*/
 
-/*Profile Badges // might work/delete later
-.header-QKLPzZ .powercord-badge-cutie img:first-child{display: none !important}
+/*Profile Badges // might work/delete later*/
+/* .header-QKLPzZ .powercord-badge-cutie img:first-child{display: none !important}
 .header-QKLPzZ .powercord-badge-cutie img:last-child{display:block!important}
 [class^="profileBadge-2BqF-Z powercord-badge-"]{color:white!important}
 [class*="BadgeStaff"]{filter: brightness(10)!important}
@@ -380,13 +380,13 @@
 [class*="GuildSubscriberlvl7"]{background-image:url("/assets/278736f579d810b11ddf308cb598b19e.svg")!important}
 [class*="GuildSubscriberlvl8"]{background-image:url("/assets/38e40f25802a0fdf480d9b855a37a2f3.svg")!important}
 [class*="GuildSubscriberlvl9"]{background-image:url("/assets/cfbc2d8ceacfacf07850f986c8165195.svg")!important}
-*/
+ */
 
 /*Dividers in chat*/
 .group-spacing-16 .divider-3_HH5L.hasContent-1_DUdQ {
   margin-top: 1.5rem;
   margin-bottom: .5rem;
-  background-color: #397d54;
+  background-color: var(--background-tertiary);
 }
 
 /*Timestamps in dividers*/
@@ -404,3 +404,12 @@
   font-weight: 600;
   border-radius: 8px;
 }
+
+/*Clyde bot message*/
+.localBotMessage-3cUzun {
+  margin-top: 8px;
+  font-size: 10px;
+  font-weight: 400;
+  color: var(--text-normal);
+}
+
