@@ -96,6 +96,7 @@
   cursor: pointer;
 }
 
+/*Custom status box color*/
 .container-3baos1 {
   height: 52px;
   font-size: 14px;
@@ -117,6 +118,7 @@
   background-color: #dbd8d7;
 }
 
+/*Friends Column*/
 .peopleColumn-29fq28 {
   background-color: #dbd8d7;
  /* border-bottom: 8px solid #94b8a1;   //need to figure out the border */
@@ -163,7 +165,6 @@
     pointer-events: none;
     transition: all .5s ease-in-out;
 }
-
 .container-3baos1:hover .noWrap-3jynv6 {
     width: 100px;
     opacity: 1;
@@ -231,7 +232,6 @@
   box-shadow: var(--elevation-low);
   background-color: #397d54;
 }
-
 .searchBar-3dMhjb {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -263,7 +263,6 @@
   border-radius: 15px;
   margin: 10px;
 }
-
 .sidebar-2K8pFh, .chat-3bRxxu, .container-3Mxszk, .container-1D34oG, .applicationStore-1pNvnv {
    border-radius: 15px 15px 0 0 !important
 }
@@ -296,7 +295,6 @@
   z-index: 1;
   background-image: url(https://cdn.naila.bot/Discord/playing-background.svg),linear-gradient(to top right,#60adff,#4453fc);
 }
-
 .headerSpotify-zpWxgT, .topSectionSpotify-1lI0-P {
   z-index: 1;
   background-image: url(https://cdn.naila.bot/Discord/playing-background.svg),linear-gradient(to top right,#1db954,#44fc9d);
@@ -320,13 +318,20 @@
   background-color: var(--background-secondary);
   color: hsla(0,0%,100%,.8);
 }
-
+.theme-dark .headerNormal-T_seeN {
+  background-color: var(--background-accent);
+}
+.headerName-fajvi9, .headerTagUsernameNoNickname-2_H881 {
+  white-space: normal;
+  color: black; 
+}
 .note-3HfJZ5 {
   margin-left: -4px;
   margin-right: -4px;
   border-radius: 10px;
   background-color: var(--background-secondary-alt);
 }
+
 
 /*Pop-ups*/
 .theme-dark .modal-yWgWj- {
@@ -349,16 +354,14 @@
   75%  {color: #ff3399}
   100% {color: #6666ff}
 } 
-
 .button-1w5pas {
   animation: rainbow-server-settings-button 10s ease-in-out infinite;
-}*/
+}
 
 /* Center profile tabs
 .tabBar-2MuP6- { 
   justify-content: center; 
 }
-
 .top-28JiJ-:last-child .item-PXvHYJ:last-child {
    margin-right: 0;
  } */
