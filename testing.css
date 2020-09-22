@@ -139,12 +139,31 @@
   color: var(--background-secondary);
 }
 
-/**/
+/*People screen*/
 .section-2gLsgF {
   position: relative;
   padding: 12px;
   border-radius: 4px;
   background-color: #94b8a1;
+}
+.peopleListItem-2nzedh {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin-left: 30px;
+  margin-right: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  cursor: pointer;
+  border-top: 1px solid var(--background-floating);
 }
 
 /*Activity Section*/
