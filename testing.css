@@ -198,6 +198,15 @@
   border-radius: 15px;
   margin: 10px; 
 }
+.containerDefault-1ZnADq {
+  position: relative;
+  -webkit-transition: opacity .2s ease-in-out;
+  transition: opacity .2s ease-in-out;
+  background-color: rgba(245, 245, 245, 0.226);
+  border: rgba(245, 245, 245, 0.226);
+  border-radius: 15px;
+  margin: 5px; 
+}
 
 /*Menu Bar*/
 .menu-3sdvDG {
@@ -235,6 +244,7 @@
   padding: 6px 8px;
   border-radius: 10px;
 }
+
 
 /*Search Bar*/
 .searchBar-6Kv8R2 {
@@ -284,6 +294,11 @@
 }
 .sidebar-2K8pFh, .chat-3bRxxu, .container-3Mxszk, .container-1D34oG, .applicationStore-1pNvnv {
    border-radius: 15px 15px 0 0 !important
+}
+.embed-IeVjo6 code {
+  border: none;
+  background: var(--background-secondary-alt);
+  scrollbar-color: var(--background-secondary) var(--background-tertiary);
 }
 
 /*Separates channels list from chat box*/
@@ -350,6 +365,11 @@
   border-radius: 10px;
   background-color: var(--background-secondary-alt);
 }
+.topSectionNormal-2-vo2m {
+  background-color: var(--background-secondary-alt);
+  border-bottom: 1px solid var(--background-tertiary);
+}
+
 
 
 /*Pop-ups*/
